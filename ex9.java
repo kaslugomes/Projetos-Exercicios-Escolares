@@ -29,13 +29,10 @@ public class ex9 {
                     resultado = a / b;
                 } else {
                     System.out.println("Erro: Divisao por zero nao e permitida.");
-                    return;
+                    break;
                 }
-                break;
             default:
                 System.out.println("Opcao invalida.");
-                return;
-        }
-        System.out.println("O resultado da operacao e: " + resultado);
+        } 
     }
 }
